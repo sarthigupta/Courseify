@@ -18,9 +18,20 @@ connectDB();
 
 // Security middleware
 app.use(helmet());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://courseify-blond.vercel.app"
+];
+
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
   })
 );
