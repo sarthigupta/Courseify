@@ -303,7 +303,7 @@ export default function LandingPage() {
         </div>
         <div className="text-neutral-400 text-sm flex flex-col items-center justify-center gap-2">
           <span>© 2026 Courseify</span>
-          <a href="https://github.com/Sarthi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-4 py-1.5 bg-white/5 rounded-full text-xs text-gray-300 border border-white/10 mt-2 tracking-wide font-medium shadow-sm transition-colors hover:bg-white/10 hover:text-white group cursor-pointer">
+          <a href="https://github.com/sarthigupta" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-4 py-1.5 bg-white/5 rounded-full text-xs text-gray-300 border border-white/10 mt-2 tracking-wide font-medium shadow-sm transition-colors hover:bg-white/10 hover:text-white group cursor-pointer">
             <Github className="w-4 h-4 group-hover:scale-110 transition-transform" /> Builded by Sarthi
           </a>
         </div>
