@@ -1,8 +1,12 @@
 import api from "./axiosInstance";
+const api = axios.create({
+  baseURL: import.meta.env.VITE_API_BASE_URL + "/api",
+  withCredentials: true,
+});
 
 // ─── Auth ────────────────────────────────────────────────
 export const authAPI = {
-  googleLogin: (idToken) => api.post("api/auth/google", { idToken }),
+  googleLogin: (idToken) => api.post("/auth/google", { idToken }),
   getMe: () => api.get("/auth/me"),
 };
 
