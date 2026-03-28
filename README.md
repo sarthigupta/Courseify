@@ -1,4 +1,4 @@
-# 🎓 Courseify
+# Courseify
 
 > Convert any YouTube playlist into a structured, Udemy-like learning experience.
 
