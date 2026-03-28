@@ -2,7 +2,7 @@ import api from "./axiosInstance";
 
 // ─── Auth ────────────────────────────────────────────────
 export const authAPI = {
-  googleLogin: (idToken) => api.post("/auth/google", { idToken }),
+  googleLogin: (idToken) => api.post("api/auth/google", { idToken }),
   getMe: () => api.get("/auth/me"),
 };
 
