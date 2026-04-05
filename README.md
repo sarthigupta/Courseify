@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 Courseify
+# Courseify
 
 **Transform any YouTube playlist into a structured, Udemy-style learning experience.**
 
@@ -212,7 +212,6 @@ Please follow [Conventional Commits](https://www.conventionalcommits.org/) for c
 ---
 
 
----
 
 <div align="center">
 
