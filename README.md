@@ -76,11 +76,11 @@ cd Courseify
 
 ```bash
 # Install backend dependencies
-cd server
+cd backend
 npm install
 
 # Install frontend dependencies
-cd ../client
+cd frontend
 npm install
 ```
 
